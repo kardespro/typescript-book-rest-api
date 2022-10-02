@@ -56,7 +56,7 @@ let q = req.query._q;
   res.json({status:200,sortType: "Not Found", filterType: "Not Found",projection:"Not Found",message: p})
 
 });
-
-app.listen(3000, () => {
+//3000
+app.listen(80, () => {
   console.log(`⚡️[server]: Server is running at https://localhost:3000`);
 });
